@@ -1,38 +1,46 @@
-# Portfolio Starter Kit
+# Hey there, I'm Stefan
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+I am a full-stack **web developer** by day and **game developer** by night, bringing a unique perspective and versatility to every project I work on. With over 13 years of experience in the industry, I have honed my skills and the ability to quickly adapt to new technologies and deliver professional quality products.
+I am a stickler for good user experience and I strive to create beautiful, functional, and high-performance products.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+Take a look at my work, and if you have any questions or would like to discuss a project, <a href="mailto:stefan&#x40;revoltage&#x2E;io">don't hesitate to reach out</a>. I'm always happy to chat. Thanks for visiting my portfolio!
 
-https://demo.vercel.blog
+## Skills
+- TypeScript
+- React
+- Express.js
+- PixiJS
+- Three.js
+- APIs
+- Web3
 
-## Configuration
+## Tools and platforms I use
+- VS Code
+- Docker
+- Git
+- Firebase
+- Webpack
+- Adobe Photoshop
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.tsx`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+## Experience
+- **Freelance Web/Game Developer** (2020-present)
+- **Lead Game Developer** at 7 Mojos and OSO Interactive (2020-2022)
+- **Software Developer** at Blockchain Solutions (2018-2020)
+- **Game Developer** at Big Mage Studio (2012-2020)
+- **Freelance Web/Game Developer** (2009-2012)
 
-## Deploy your own
+## Projects
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog)
+### 3D visualization tool for online races. 
+A dashboard for inspecting scene and telemetry data from popular online racing game.
+Typescript, React, MUI, Threejs, Recharts, Sentry, Jira, Node.js, AWS, Figma
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
+### NFT game about trains on the blockchain.
+PixiJS, GSAP, Shaders, TypeScript, NFTs, EOSIO/WAX, Firebase, Airtable, Sentry, WebGL, Webpack, Serverless, D3.js, Ethers.js, Web3.js
 
-## How to use
+### Slot games SDK for online casino.
+The first game, as well as oroject structure, SDK, and tools for the asset pipeline of a company's new slot games portfolio.
+Node.js, TypeScript, PixiJS, Howler.js, GSAP, Gulp, Electron
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-# or
-pnpm create next-app --example blog my-blog
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Multiplayer party games on the web.
+Typescript, Lerna, React, Firebase Realtime Database, Figma
