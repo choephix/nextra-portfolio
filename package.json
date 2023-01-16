@@ -6,13 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.26",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "nextra": "^2.0.0-beta.5",
     "nextra-theme-blog": "^2.0.0-beta.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
