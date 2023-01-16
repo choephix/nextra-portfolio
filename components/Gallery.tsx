@@ -20,7 +20,7 @@ const GalleryBackground = styled.div`
  * Margin is 0.5rem.
  */
 const Thumb = styled.img`
-  height: 120px;
+  height: 160px;
   width: auto;
   border-radius: 12px;
   margin: 0.5rem;
@@ -86,10 +86,11 @@ function GallerySlider(props: { images: string[] }) {
     <div
       className='image-list'
       style={{
-        width: '100%',
         position: 'absolute',
-        bottom: '12px',
-        left: '12px',
+        bottom: '0px',
+        left: '0px',
+        right: '0px',
+        overflow: 'hidden',
       }}
     >
       <div
@@ -98,6 +99,7 @@ function GallerySlider(props: { images: string[] }) {
           animation: 'scrolling-images 30s linear infinite',
           overflow: 'hidden',
           width: '100%',
+          margin: '24px 0px',
         }}
       >
         {images.map((image, index) => (

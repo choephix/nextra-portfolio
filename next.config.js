@@ -6,7 +6,9 @@ const withNextra = require('nextra')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // any configs you need
-}
+  compiler: {
+    styledComponents: true,
+  },
+};
 
 module.exports = withNextra(nextConfig)
